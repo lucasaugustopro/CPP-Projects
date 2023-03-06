@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+
     int num;
     int result = 1;
 
