@@ -14,7 +14,9 @@ int main(){
    //Criando um Pointer para a variavel name contendo seu endereço na memoria 
    string *pName = &name;
    
-   cout << pName << '\n'; 
+   cout << pName << '\n';
+
+   // Operador deference e usado para acessar oque esta dentro do endereço armazenado no Pointer  
    cout << *pName;
     return 0;
 }
